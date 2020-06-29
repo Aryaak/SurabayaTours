@@ -1,0 +1,29 @@
+@media screen and (max-width: 1000px) {
+
+    /* Header Style */
+
+    header {
+
+        height: 600px;
+    }
+
+    /* Jumbotron style */
+
+    #jumbotron {
+
+        margin-top: 100px;
+
+    }
+
+    #jumbotron h1 {
+
+        font-size: 40px;
+    }
+
+
+    #jumbotron p {
+
+        font-size: 15px;
+    }
+
+}

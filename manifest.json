@@ -1,0 +1,14 @@
+{
+    "name": "SurabayaTours",
+    "short_name": "SBYTours",
+    "description": "Aplikasi PWA untuk menampilkan daftar wisata di kota Surabaya",
+    "start_url": "/index.html",
+    "display": "fullscreen",
+    "background_color": "#00897B",
+    "theme_color": "#00897B",
+    "icons": [{
+        "src": "assets/icons/AppIcon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }]
+}

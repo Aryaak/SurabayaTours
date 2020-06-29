@@ -1,0 +1,172 @@
+/* Header Style */
+
+header {
+
+    background-image: url("../image/jumbotron-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+
+}
+
+/* Overlay Style */
+
+#overlay {
+
+    padding-top: 50px;
+    background-color: rgb(0, 0, 0, 0.3);
+    height: inherit;
+}
+
+/* Nav Style */
+
+.menu {
+
+    width: 90%;
+    height: 70px;
+    line-height: 70px;
+    margin: auto;
+    padding: 0 20px;
+    background-color: rgba(39, 174, 96, 1);
+
+}
+
+/* Jumbotron Style */
+
+#jumbotron {
+
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+
+}
+
+#jumbotron p {
+
+    font-size: 20px;
+
+}
+
+/* Container Style */
+
+.container {
+
+    margin: 50px auto;
+
+}
+
+/* Card Style */
+
+.step-card {
+
+    text-align: center;
+    font-size: 60px;
+    background-color: #27ae60;
+}
+
+.contact-card {
+
+    position: relative;
+    padding: 20px 50px;
+}
+
+
+.home-title {
+
+    text-align: center;
+}
+
+.contact-message input {
+
+    border-bottom: 1px solid #27ae60 !important;
+    color: #27ae60;
+
+}
+
+.contact-message label {
+
+    color: #27ae60;
+}
+
+textarea {
+
+    border: 1px solid #27ae60 !important;
+    padding: 20px !important;
+    height: 200px !important;
+    color: #27ae60;
+
+}
+
+textarea::-webkit-input-placeholder {
+    color: #27ae60;
+}
+
+/* Button Style */
+
+button {
+
+    background: none;
+    width: 40px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.details {
+
+    border: 1px solid #3498db;
+    color: #3498db;
+}
+
+.favorite {
+
+    border: 1px solid #2ecc71;
+    color: #2ecc71;
+
+}
+
+.report {
+
+    border: 1px solid #e74c3c;
+    color: #e74c3c;
+}
+
+.send {
+
+    width: 100%;
+    border: 1px solid #2ecc71;
+    color: #2ecc71;
+
+}
+
+/* About style */
+
+.about {
+
+    text-align: center;
+}
+
+/* Footer Style */
+
+.page-footer {
+
+    position: absolute;
+    width: 100%;
+    background-color: #27ae60;
+
+}
+
+
+.login-field {
+
+    margin-top: 30px;
+}
+
+.login-field>input {
+    border-bottom: 1px solid white !important;
+    color: white;
+}
+
+.login-field>label {
+
+    color: white !important;
+}

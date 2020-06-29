@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#00897B" />
+
+    <!-- Manifest -->
+
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="assets/icons/fontawesome/css/all.min.css">
+
+    <!-- Materialize CSS -->
+
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+
+    <!-- My CSS -->
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <title>SurabayaTours</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div id="overlay">
+
+            <nav class="menu" role="navigation">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo" id="logo-container">SurabayaTours</a>
+                    <a href="#" class="sidenav-trigger" data-target="nav-mobile">☰</a>
+                    <ul class="topnav right hide-on-med-and-down"></ul>
+                    <ul class="sidenav" id="nav-mobile"></ul>
+                </div>
+            </nav>
+
+            <div id="jumbotron">
+
+                <h1>Tempat Wisata di Surabaya</h1>
+                <p>"Ayo cari tempat wisata menarik di surabaya melalui SurabayaTours"</p>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <div id="content">
+
+        </div>
+
+    </main>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l4 s12">
+
+                    <h5>Ayo berlangganan</h5>
+                    <p>Dapatakan notifikasi update terbaru dari SurabayaTours</p>
+                    <div class="input-field login-field">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                        <a class="waves-effect waves-light btn-small">Masuk</a>
+                    </div>
+
+                </div>
+
+                <div class="col l4 s12">
+
+                    <h5>kategori</h5>
+                    <ul>
+                        <li>Wisata</li>
+                        <li>Hiburan</li>
+                        <li>Keluarga</li>
+                        <li>Santai</li>
+                    </ul>
+
+                </div>
+
+                <div class="col l4 s12">
+
+                    <h5>Jumlah Pengujung</h5>
+                    <h4>120.000</h4>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="assets/js/nav.js"></script>
+    <script src="assets/js/materialize.min.js"></script>
+    <script>
+        // REGISTER SERVICE WORKER
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", function () {
+                navigator.serviceWorker
+                    .register("/service-worker.js")
+                    .then(function () {
+                        console.log("Pendaftaran ServiceWorker berhasil");
+                    })
+                    .catch(function () {
+                        console.log("Pendaftaran ServiceWorker gagal");
+                    });
+            });
+        } else {
+            console.log("ServiceWorker belum didukung browser ini.");
+        }
+    </script>
+</body>
+
+</html>
