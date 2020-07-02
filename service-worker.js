@@ -2,6 +2,7 @@ const CACHE_NAME = "SurabayTours v-1.1.2";
 var urlsToCache = [
     "/",
     "/index.html",
+    "/manifest.json",
     "/assets/templates/nav.html",
     "/pages/home.html",
     "/pages/about.html",
